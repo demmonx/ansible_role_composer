@@ -1,9 +1,10 @@
 ---
-dependencies: []
+dependencies: 
+  - ansible_role_php
 
 galaxy_info:
   author: demmonx
-  description: Git Deployer for Debian/Ubuntu.
+  description: Composer for Debian/Ubuntu.
   company: ""
   license: "license ( MIT)"
   min_ansible_version: 2.4
