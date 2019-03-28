@@ -6,7 +6,7 @@
     mode: 0777
 
 - name: Install composer
-  shell: php /opt/composer-setup.php --quiet --install-dir=bin --filename=composer
+  shell: php /opt/composer-setup.php --quiet --install-dir=/usr/bin --filename=composer
 
 - name: Remove installer
   file:
